@@ -14,7 +14,7 @@ export default function AboutSection() {
 
   return (
     <section className="py-16 md:py-24 text-muted px-4 bg-gradient-to-br from-black to-gray-800">
-      <div className="max-w-6xl mx-auto">
+      <div className="max-w-6xl mx-auto overflow-hidden">
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
