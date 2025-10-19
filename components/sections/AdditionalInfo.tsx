@@ -87,37 +87,57 @@ export default function AdditionalInfo() {
             da organizujete savršenu proslavu uz zvuke tradicionalne srpske
             trubače muzike.
           </p>
-          <div className="bg-muted-foreground p-6 rounded-lg border-l-4 border-primary text-primary">
-            <p className="font-bold text-xl mb-2">
-              Zašto klijenti biraju Orkestar Rakete:
-            </p>
-            <ul className="space-y-2">
-              <li>
-                ✓ <strong>15+ godina iskustva</strong> u trubackoj muzici
-              </li>
-              <li>
-                ✓ <strong>Preko 1000 uspešno izvedenih proslava</strong>
-              </li>
-              <li>
-                ✓ <strong>Repertoar od 500+ pesama</strong>
-              </li>
-              <li>
-                ✓ <strong>Profesionalni muzičari</strong> sa višegodišnjim
-                iskustvom
-              </li>
-              <li>
-                ✓ <strong>Vrhunska zvučna oprema</strong>
-              </li>
-              <li>
-                ✓ <strong>Punktualnost i profesionalnost</strong>
-              </li>
-              <li>
-                ✓{" "}
-                <strong className="text-primary text-xl">
-                  NAJPOVOLJNIJE CENE U SRBIJI
-                </strong>
-              </li>
-            </ul>
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+            {/* Video */}
+            <div className="order-2 md:order-1">
+              <div className="relative rounded-lg overflow-hidden shadow-2xl">
+                <video
+                  controls
+                  className="w-full aspect-video object-cover"
+                  poster="/images/IMG-94418cec1437a86d810e2a6fad2e39f5-V.jpg"
+                >
+                  <source
+                    src="/images/AQMnFzxnHuJ6LLU1wGWXu61nIsmpOqa2Wowi_xOEZbr9Jnne2oKj3XStK-_Vt0Z35L1PCwIVA5Pit4EvFSP_96E.mp4"
+                    type="video/mp4"
+                  />
+                  Vaš pretraživač ne podržava video tag.
+                </video>
+              </div>
+            </div>
+
+            {/* Text */}
+            <div className="order-1 md:order-2 bg-muted-foreground p-6 rounded-lg border-l-4 border-primary text-primary h-full">
+              <p className="font-bold text-xl mb-2">
+                Zašto klijenti biraju Orkestar Rakete:
+              </p>
+              <ul className="space-y-1">
+                <li>
+                  ✓ <strong>15+ godina iskustva</strong> u trubačkoj muzici
+                </li>
+                <li>
+                  ✓ <strong>Preko 1000 uspešno izvedenih proslava</strong>
+                </li>
+                <li>
+                  ✓ <strong>Repertoar od 500+ pesama</strong>
+                </li>
+                <li>
+                  ✓ <strong>Profesionalni muzičari</strong> sa višegodišnjim
+                  iskustvom
+                </li>
+                <li>
+                  ✓ <strong>Vrhunska zvučna oprema</strong>
+                </li>
+                <li>
+                  ✓ <strong>Punktualnost i profesionalnost</strong>
+                </li>
+                <li>
+                  ✓{" "}
+                  <strong className="text-primary text-xl">
+                    NAJPOVOLJNIJE CENE U SRBIJI
+                  </strong>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

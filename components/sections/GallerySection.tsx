@@ -5,10 +5,8 @@ import { motion } from "framer-motion";
 
 const galleryImages = [
   "IMG-0b80fbed8d97fe21da68c3728ded502f-V.jpg",
-  "IMG-2cebe69bb581ab5ec1cc2fc668580e2c-V.jpg",
   "IMG-3ae800f82e80b53a1b273b8c49f4718b-V.jpg",
   "IMG-8f0334d9f96f5b833488744807b3cc68-V.jpg",
-  "IMG-27c147a718e6dc4600ada0f1e0a441a9-V.jpg",
 
   "IMG-94cc57fb919629b433d4a1ff5a892cd5-V.jpg",
   "IMG-145de5bf91a3302ec664d52d0d29f3a3-V.jpg",
