@@ -52,7 +52,7 @@ export const metadata: Metadata = {
     "orkestar za proslavu",
   ],
   alternates: {
-    canonical: "https://www.orkestarrakete.rs/",
+    canonical: "https://www.trubaci-velikaplana.rs/",
   },
   openGraph: {
     title: "Trubacki Orkestar Rakete - Dejvid Stamenkovic",
