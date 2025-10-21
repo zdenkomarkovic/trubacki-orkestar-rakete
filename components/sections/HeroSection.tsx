@@ -9,12 +9,12 @@ import { motion } from "framer-motion";
 export default function HeroSection() {
   return (
     <section className="relative h-[100dvh]  flex items-end justify-center overflow-hidden pb-6 md:pb-10">
-      <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-black/30" />
+      <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-black/10" />
       <Image
-        src="/images/IMG-94418cec1437a86d810e2a6fad2e39f5-V.jpg"
+        src="/images/IMG-145de5bf91a3302ec664d52d0d29f3a3-V.jpg"
         alt="Trubacki Orkestar Rakete Dejvid Stamenkovic"
         fill
-        className="object-cover -z-10"
+        className="object-cover object-[center_23%] -z-10"
         priority
       />
       <div className="relative  text-center text-white px-4 max-w-4xl mx-auto">
