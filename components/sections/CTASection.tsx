@@ -6,7 +6,7 @@ export default function CTASection() {
     <section className="py-16 md:py-24 px-4 bg-primary text-white">
       <div className="max-w-4xl mx-auto text-center">
         <h2 className="text-white mb-6">
-          Rezervišite Trubački Orkestar Rakete Dejvida Stamenkovića!
+          Rezervišite Trubački Orkestar!
         </h2>
         <p className="text-xl md:text-2xl mb-8">
           Najkvalitetnija usluga trubačkog orkestra po najpovoljnijim cenama u
@@ -18,9 +18,9 @@ export default function CTASection() {
             className="text-xl px-10 py-7 bg-white text-primary hover:bg-gray-100"
             asChild
           >
-            <a href="tel:0637894687">
+            <a href="tel:+38160000000">
               <Phone className="mr-2 h-6 w-6" />
-              Pozovite: 063 789 4687
+              Pozovite: 060 000 000
             </a>
           </Button>
         </div>

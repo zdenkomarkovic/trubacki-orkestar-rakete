@@ -10,7 +10,7 @@ const testimonials = [
     event: "Svadba - Avgust 2024",
     location: "Velika Plana",
     rating: 5,
-    text: "Orkestar Rakete je ulepšao našu svadbu! Dejvid i ekipa su bili profesionalni, punktualni i muzika je bila fantastična. Svi gosti su bili oduševljeni. Preporučujemo svima!",
+    text: "Orkestar je ulepšao našu svadbu! Ekipa je bila profesionalna, punktualni i muzika je bila fantastična. Svi gosti su bili oduševljeni. Preporučujemo svima!",
   },
   {
     name: "Stefan Petrović",
@@ -31,21 +31,21 @@ const testimonials = [
     event: "Svadba - Jun 2024",
     location: "Kragujevac",
     rating: 5,
-    text: "Dejvid i njegov orkestar su pravi profesionalci! Od dogovora do samog nastupa sve je bilo savršeno. Repertoar je odličan - od starih pesama do modernih hitova. Topla preporuka!",
+    text: "Orkestar su pravi profesionalci! Od dogovora do samog nastupa sve je bilo savršeno. Repertoar je odličan - od starih pesama do modernih hitova. Topla preporuka!",
   },
   {
     name: "Ana i Milan",
     event: "Krstenje",
     location: "Svilajnac",
     rating: 5,
-    text: "Krstenje našeg sina je bilo magično uz Orkestar Rakete. Muzika je bila prilagođena događaju, svi su uživali. Posebno smo zadovoljni odnos cene i kvaliteta!",
+    text: "Krstenje našeg sina je bilo magično uz Orkestar. Muzika je bila prilagođena događaju, svi su uživali. Posebno smo zadovoljni odnos cene i kvaliteta!",
   },
   {
     name: "Dragomir Stanković",
     event: "Firmska Proslava",
     location: "Beograd",
     rating: 5,
-    text: "Angažovali smo Orkestar Rakete za našu firmsku slavu i bili smo više nego zadovoljni. Profesionalan pristup, odličan repertoar i sjajni muzičari. Svakako ćemo ih ponovo angažovati!",
+    text: "Angažovali smo Orkestar za našu firmsku slavu i bili smo više nego zadovoljni. Profesionalan pristup, odličan repertoar i sjajni muzičari. Svakako ćemo ih ponovo angažovati!",
   },
 ];
 
@@ -63,7 +63,7 @@ export default function TestimonialsSection() {
           <h2 className="mb-4">Šta Kažu Naši Klijenti</h2>
           <p className="text-lg max-w-3xl mx-auto">
             Zadovoljstvo naših klijenata je naš najveći uspeh. Pročitajte
-            iskustva ljudi koji su birali Orkestar Rakete za svoje najvažnije
+            iskustva ljudi koji su birali Orkestar za svoje najvažnije
             trenutke.
           </p>
         </motion.div>

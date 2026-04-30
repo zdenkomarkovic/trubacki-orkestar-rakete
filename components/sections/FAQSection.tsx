@@ -7,9 +7,9 @@ import {
 
 const faqs = [
   {
-    question: "Koliko kosta angažovanje trubackog orkestra Rakete?",
+    question: "Koliko kosta angažovanje trubackog orkestra?",
     answer:
-      "Cena nasih usluga zavisi od vrste proslave, trajanja nastupa i lokacije. Ponudimo vam <strong>najpovoljnije cene na trzistu</strong> uz garanciju vrhunskog kvaliteta. Kontaktirajte nas na 063 789 4687 za besplatnu procenu i personalizovanu ponudu. Specijalne cene dostupne za visestruke dogadjaje i grupne rezervacije.",
+      "Cena nasih usluga zavisi od vrste proslave, trajanja nastupa i lokacije. Ponudimo vam <strong>najpovoljnije cene na trzistu</strong> uz garanciju vrhunskog kvaliteta. Kontaktirajte nas na +381 60 000 000 za besplatnu procenu i personalizovanu ponudu. Specijalne cene dostupne za visestruke dogadjaje i grupne rezervacije.",
   },
   {
     question: "Koji repertoar pesama pokrivate?",
@@ -19,7 +19,7 @@ const faqs = [
   {
     question: "Gde nastupate - koje gradove pokrivate?",
     answer:
-      "Trubacki orkestar Rakete nastupa širom Srbije. Posebno smo aktivni u regionima: Velika Plana, Smederevo, Požarevac, Svilajnac, Despotovac, Jagodina, Kragujevac, Valjevo, Kraljevo, Užice i Leskovac. Takodje nastupamo i u drugim gradovima i mestima sirom zemlje. Kontaktirajte nas bez obzira gde se nalazi vasa proslava!",
+      "Trubacki orkestar nastupa širom Srbije. Posebno smo aktivni u regionima: Velika Plana, Smederevo, Požarevac, Svilajnac, Despotovac, Jagodina, Kragujevac, Valjevo, Kraljevo, Užice i Leskovac. Takodje nastupamo i u drugim gradovima i mestima sirom zemlje. Kontaktirajte nas bez obzira gde se nalazi vasa proslava!",
   },
   {
     question: "Koliko dugo traje nastup trubackog orkestra?",
@@ -42,7 +42,7 @@ export default function FAQSection() {
   return (
     <section className="py-16 md:py-24 px-4 bg-gradient-to-br from-black to-gray-800">
       <div className="max-w-4xl mx-auto">
-        <h2 className="mb-12">Česta Pitanja o Trubačima Rakete</h2>
+        <h2 className="mb-12">Česta Pitanja o Trubačima</h2>
         <Accordion type="single" collapsible className="space-y-4">
           {faqs.map((faq, index) => (
             <AccordionItem

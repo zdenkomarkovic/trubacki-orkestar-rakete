@@ -5,11 +5,11 @@ import { motion } from "framer-motion";
 
 const services = [
   {
-    image: "/images/IMG-26abfdc50e2795462235f194f104468b-V.jpg",
+    image: "/images/truba-foto-aleksandar-kostic.jpg.webp",
     alt: "Trubači za svadbu",
     title: "Trubači za Svadbu",
     description:
-      "Ulepšajte najvažniji dan u životu sa tradicionalnom trubačkom muzikom. Trubači Rakete vam garantuju nezaboravnu svadbu sa najboljim repertoarom pesama za doček mladenaca, igranku i slavlje.",
+      "Ulepšajte najvažniji dan u životu sa tradicionalnom trubačkom muzikom. Garantujemo nezaboravnu svadbu sa najboljim repertoarom pesama za doček mladenaca, igranku i slavlje.",
     features: [
       "✓ Doček mladenaca",
       "✓ Muzika tokom večere",
@@ -19,7 +19,7 @@ const services = [
     ],
   },
   {
-    image: "/images/IMG-54b330bd8fc520e75d54c468870f1009-V.jpg",
+    image: "/images/truba-foto-aleksandar-kostic.jpg.webp",
     alt: "Orkestar za slavu",
     title: "Orkestar za Slavu",
     description:
@@ -33,7 +33,7 @@ const services = [
     ],
   },
   {
-    image: "/images/IMG-2acf89d80fc077d80d0d099732194eba-V.jpg",
+    image: "/images/truba-foto-aleksandar-kostic.jpg.webp",
     alt: "Trubači za krštenje",
     title: "Trubači za Krštenje",
     description:
@@ -47,7 +47,7 @@ const services = [
     ],
   },
   {
-    image: "/images/IMG-0f491095f74d062d73b3423a6aae2b25-V.jpg",
+    image: "/images/truba-foto-aleksandar-kostic.jpg.webp",
     alt: "Orkestar za rođendan",
     title: "Orkestar za Rođendane",
     description:
@@ -61,7 +61,7 @@ const services = [
     ],
   },
   {
-    image: "/images/IMG-17c7752896466fb61ae338a193f8cbc3-V.jpg",
+    image: "/images/truba-foto-aleksandar-kostic.jpg.webp",
     alt: "Trubači za firmne proslave",
     title: "Korporativni Događaji",
     description:
@@ -75,7 +75,7 @@ const services = [
     ],
   },
   {
-    image: "/images/IMG-5b7195eac8f5dcc2306a39b4e80ee6a5-V.jpg",
+    image: "/images/truba-foto-aleksandar-kostic.jpg.webp",
     alt: "Trubači za sve proslave",
     title: "Sve Vrste Proslava",
     description:

@@ -15,7 +15,7 @@ const cities = [
   {
     name: "Požarevac",
     description:
-      "Trubači Rakete za proslave u Požarevcu. Profesionalan nastup po konkurentnim cenama.",
+      "Trubači za proslave u Požarevcu. Profesionalan nastup po konkurentnim cenama.",
   },
   {
     name: "Svilajnac",
@@ -45,7 +45,7 @@ const cities = [
   {
     name: "Kraljevo",
     description:
-      "Trubači Rakete u Kraljevu - profesionalne usluge po pristupačnim cenama.",
+      "Trubači u Kraljevu - profesionalne usluge po pristupačnim cenama.",
   },
   {
     name: "Užice",
@@ -55,7 +55,7 @@ const cities = [
   {
     name: "Leskovac",
     description:
-      "Trubački orkestar Rakete u Leskovcu. Kvalitet i tradicija po najboljim cenama.",
+      "Trubački orkestar u Leskovcu. Kvalitet i tradicija po najboljim cenama.",
   },
 ];
 
@@ -64,11 +64,10 @@ export default function CitiesSection() {
     <section className="py-16 md:py-24 px-4 bg-gradient-to-br from-black to-gray-800">
       <div className="max-w-6xl mx-auto">
         <h2 className="mb-4">
-          Pokrivamo Celu Srbiju - Trubači Rakete Dejvida Stamenkovića na Vasoj
-          Lokaciji
+          Pokrivamo Celu Srbiju - Trubači na Vašoj Lokaciji
         </h2>
         <p className="text-center text-lg mb-12 max-w-3xl mx-auto text-muted">
-          Trubački orkestar Rakete nastupa širom Srbije. Bez obzira gde se
+          Trubački orkestar nastupa širom Srbije. Bez obzira gde se
           nalazi vaša proslava, mi smo tu za vas sa{" "}
           <strong className="text-primary">najpovoljnijim cenama</strong> i
           profesionalnim pristupom.

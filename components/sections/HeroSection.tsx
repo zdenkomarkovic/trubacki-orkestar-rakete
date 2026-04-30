@@ -11,8 +11,8 @@ export default function HeroSection() {
     <section className="relative h-[100dvh]  flex items-end justify-center overflow-hidden pb-6 md:pb-10">
       <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/20 to-black/10" />
       <Image
-        src="/images/IMG-145de5bf91a3302ec664d52d0d29f3a3-V.jpg"
-        alt="Trubacki Orkestar Rakete Dejvid Stamenkovic"
+        src="/images/truba-foto-aleksandar-kostic.jpg.webp"
+        alt="Trubacki Orkestar"
         fill
         className="object-cover object-[center_23%] -z-10"
         priority
@@ -24,7 +24,7 @@ export default function HeroSection() {
           transition={{ duration: 0.8, delay: 0.2 }}
           className="text-4xl md:text-6xl lg:text-7xl font-bold mb-6 drop-shadow-lg"
         >
-          Trubački Orkestar Rakete Dejvida Stamenkovića
+          Trubački Orkestar
         </motion.h1>
 
         <motion.p
@@ -46,9 +46,9 @@ export default function HeroSection() {
             className="text-lg px-8 py-6 bg-primary hover:bg-primary/90"
             asChild
           >
-            <a href="tel:0637894687">
+            <a href="tel:+38160000000">
               <Phone className="mr-2 h-5 w-5" />
-              063 789 4687
+              060 000 000
             </a>
           </Button>
           <Button

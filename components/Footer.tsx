@@ -19,7 +19,7 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <Music className="h-8 w-8 text-primary" />
-              <h3 className="text-xl font-bold">Orkestar Rakete</h3>
+              <h3 className="text-xl font-bold">Trubački Orkestar</h3>
             </div>
             <p className="text-gray-400 mb-4">
               Profesionalni trubački orkestar za svadbe, slave i sve vrste
@@ -86,10 +86,10 @@ export default function Footer() {
                 <Phone className="h-5 w-5 text-primary mt-1 flex-shrink-0" />
                 <div>
                   <a
-                    href="tel:0637894687"
+                    href="tel:+38160000000"
                     className="text-gray-400 hover:text-primary transition-colors"
                   >
-                    063 789 4687
+                    060 000 000
                   </a>
                   <p className="text-sm text-gray-500">Pozovite nas 24/7</p>
                 </div>
@@ -122,8 +122,7 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
             <p>
-              &copy; {new Date().getFullYear()} Trubački Orkestar Rakete -
-              Dejvid Stamenković. Sva prava zadržana.
+              &copy; {new Date().getFullYear()} Trubački Orkestar. Sva prava zadržana.
             </p>
             <a
               href="https://www.manikamwebsolutions.com/"

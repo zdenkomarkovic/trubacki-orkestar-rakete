@@ -5,7 +5,7 @@ export default function WhyChooseUs() {
   return (
     <section className="py-16 md:py-24 px-4 bg-gradient-to-br from-black to-gray-800">
       <div className="max-w-6xl mx-auto">
-        <h2 className="mb-12">Zašto Odabrati Trubački Orkestar Rakete?</h2>
+        <h2 className="mb-12">Zašto Odabrati Trubački Orkestar?</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <Card className="p-8">
             <h3 className="text-2xl font-bold mb-4 flex items-center gap-3">

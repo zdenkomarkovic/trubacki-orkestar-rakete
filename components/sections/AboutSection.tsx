@@ -22,7 +22,7 @@ export default function AboutSection() {
           transition={{ duration: 0.6 }}
           className="mb-12"
         >
-          O Nama - Trubački Orkestar Rakete
+          O Nama - Trubački Orkestar
         </motion.h2>
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <motion.div
@@ -32,8 +32,8 @@ export default function AboutSection() {
             transition={{ duration: 0.6 }}
           >
             <Image
-              src="/images/IMG-a3c7a32ca8ef543885e130f3a7bcd2d2-V.jpg"
-              alt="Orkestar Rakete nastup"
+              src="/images/truba-foto-aleksandar-kostic.jpg.webp"
+              alt="Orkestar nastup"
               width={600}
               height={400}
               className="rounded-lg shadow-xl"
@@ -47,7 +47,7 @@ export default function AboutSection() {
             className="space-y-6"
           >
             <p className="text-lg leading-relaxed">
-              Trubački orkestar <strong>Rakete Dejvida Stamenkovića</strong> je
+              Trubački orkestar je
               renomirani muzički sastav sa dugogodišnjim iskustvom u pružanju
               vrhunskih usluga trubačke muzike širom Srbije. Specijalizovani smo
               za svadbe, slave, krštenja, rođendane i sve vrste proslava.

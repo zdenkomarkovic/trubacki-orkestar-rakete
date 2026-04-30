@@ -1,4 +1,6 @@
 import ButtonToTop from "@/components/ButtonToTop";
+import Footer from "@/components/Footer";
+import Header from "@/components/Header";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -14,9 +16,9 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Trubacki Orkestar Rakete - Dejvid Stamenkovic | Najpovoljnije Cene",
+  title: "Trubacki Orkestar | Najpovoljnije Cene",
   description:
-    "Trubacki orkestar Rakete Dejvida Stamenkovica za svadbe, slave, proslave u celoj Srbiji. Veliki repertoar, profesionalni muzicari, najpovoljnije cene. Pozovite 063 789 4687",
+    "Trubacki orkestar za svadbe, slave, proslave u celoj Srbiji. Veliki repertoar, profesionalni muzicari, najpovoljnije cene. Pozovite +381 60 000 000",
   icons: {
     icon: [
       { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
@@ -29,8 +31,6 @@ export const metadata: Metadata = {
   keywords: [
     "trubacki orkestar",
     "trubaci za svadbu",
-    "orkestar Rakete",
-    "Dejvid Stamenkovic",
     "trubaci Velika Plana",
     "trubaci Smederevo",
     "trubaci Pozarevac",
@@ -53,7 +53,7 @@ export const metadata: Metadata = {
     canonical: "https://www.trubaci-velikaplana.rs/",
   },
   openGraph: {
-    title: "Trubacki Orkestar Rakete - Dejvid Stamenkovic",
+    title: "Trubacki Orkestar",
     description:
       "Profesionalni trubacki orkestar za sve vase proslave. Najpovoljnije cene u Srbiji!",
     type: "website",
@@ -71,10 +71,10 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased text-muted-foreground bg-foreground  text-base md:text-xl`}
       >
-        {/* <Header /> */}
+        <Header />
         {children}
         <ButtonToTop />
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );
